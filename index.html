@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/logicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/logicon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/logicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/logicon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/logicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/logicon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/logicon.png">
+    <link rel="icon" type="image/png" href="images/logicon.png" sizes2="196x196">
+    <link rel="icon" type="image/png" href="images/logicon.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="images/logicon.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/logicon.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/logicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/logicon.png">
+
+    <title>AUDI</title>
+</head>
+
+<body>
+    <div class="slide" id="home">
+        <header>
+            <div class="logo"><img src="images/logonav.png" alt="Logo-Audi"></div>
+            <div id="burger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </header>
+        <div id="menuMobile">
+
+            <nav>
+                <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <a href="#home">accueil</a>
+                    </li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                        </svg>
+
+                        <a href="#presentation">présentation</a>
+                    </li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                        </svg>
+                        <a href="#performance">performances</a>
+                    </li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                        <a href="#gallery">galerie</a>
+                    </li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 011.037-.443 48.282 48.282 0 005.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+                        </svg>
+                        <a href="#contact">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="block-home">
+            <div class="left">
+                <div class="wrapper">
+                    <div class="jumbotron">
+                        <h1 class="title">AUDI <span id="secondword">RS6</span> </h1>
+                        <p>Projection By Technology</p>
+                        <div class="btn-more">
+                            <a href="#presentation">Découvrez-en plus</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img src="images/audirs6.png" alt="Audi RS6" pos-x="5" delta-y="8" class="flottant">
+                <div id="archor-menu">
+                    <a href="#home" id="a-home" class="active"></a>
+                    <a href="#presentation" id="a-pres"></a>
+                    <a href="#performance" id="a-performances"></a>
+                    <a href="#galerie" id="a-galerie"></a>
+                    <a href="#contact" id="a-contact"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="slide" id="presentation">
+        <div class="wrapper">
+            <div class="block-pres">
+                <div class="text-pres">
+                    <h2 class="title_underlined">Découverte</h2>
+                    <p>L'Audi RS6 : un chef-d'œuvre de puissance et de sophistication. Préparez-vous à vivre des moments
+                        de
+                        conduite inoubliables grâce à ses performances incroyables et son design époustouflant. Un
+                        moteur
+                        suralimenté V8, associé à une technologie de pointe, vous propulse vers des sensations fortes à
+                        chaque instant. Découvrez le summum de l'excitation au volant avec l'Audi RS6.</p>
+                </div>
+                <div id="panel-container">
+
+                    <img src="images/inside_pres.png" alt="intérieur AUDI RS6" id="panel">
+                </div>
+            </div>
+            <div class="block-card">
+                <div class="card element" data-transi="0.10">
+                    <div class="pic-card">
+                        <img src="images/card3.png" alt="Audi RS6 devant">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
+                        </svg>
+
+                    </div>
+                    <div class="detail-card  ">
+                        <p>L'Audi RS6 : performance et luxe d'exception. Une combinaison parfaite de puissance, de
+                            technologies avancées et de finitions haut de gamme, offrant une valeur inégalée</p>
+                        <div class="btn-card">
+                            <a href="#galerie">Découvrez les images</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card element" data-transi="0.20">
+                    <div class="pic-card">
+                        <img src="images/card1.png" alt="Audi RS6 devant">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
+                        </svg>
+
+                    </div>
+                    <div class="detail-card  ">
+                        <p>L'Audi RS6, acclamée par la presse automobile, offre une expérience de conduite exaltante et
+                            une polyvalence exceptionnelle, se distinguant comme l'une des meilleures voitures de
+                            performance</p>
+                        <div class="btn-card">
+                            <a href="#performance">Découvrez-les performances</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card element" data-transi="0.30">
+                    <div class="pic-card">
+                        <img src="images/card2.png" alt="Audi RS6 devant">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
+                        </svg>
+
+                    </div>
+                    <div class="detail-card  ">
+                        <p>L'Audi RS6 : une fusion ultime de performance, d'élégance et d'artisanat allemand, créant une
+                            expérience de conduite inégalée et empreinte d'une passion inébranlable.</p>
+                        <div class="btn-card">
+                            <a href="https://www.fr.audi.be/be/web/fr/modeles.html" target="_blank">Découvrez les
+                                nouveaux modèles</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="slide" id="performance">
+        <div class="wrapper">
+            <h2>Performances</h2>
+            <div class="pic-car"><img src="images/perf.png" alt=""></div>
+
+            <div class="container-grid">
+                <div class="perf">
+                    <h4>Puissance</h4>
+                    <img src="images/form.png" alt="">
+                    <div class="text-perf">
+                        <p>441</p>
+                        <p>Kw</p>
+
+                    </div>
+                </div>
+                <div class="perf">
+                    <h4>Accélération</h4>
+                    <img src="images/form.png" alt="">
+                    <div class="text-perf">
+                        <p>3.6</p>
+                        <p>secondes
+                           </p>
+
+                    </div>
+                </div>
+                <div class="perf">
+                    <h4>Vitesse maximale</h4>
+                    <img src="images/form.png" alt="">
+                    <div class="text-perf" id="perfblock">
+                        <p>305</p>
+                        <p>km/h
+                           </p>
+
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+     
+    </div>
+
+
+   
+    </div>
+    <div class="slide" id="galerie">
+        <div class="wrapper">
+            <div class="block_slider">
+                <h2>Galerie</h2>
+                <p>Explorez l'élégance et la puissance captivantes de l'Audi RS6 à travers notre galerie de photos, où chaque image est un hommage à la beauté sans compromis de cette voiture emblématique.</p>
+                <div class="slider" data-timer="5000">
+                    <div class="pics">
+                        <img src="images/galerie/1.png" alt="">
+                  
+                    </div>
+                    <div class="pics">
+                        <img src="images/galerie/2.png" alt="">
+                       
+                    </div>
+                    <div class="pics">
+                        <img src="images/galerie/3.png" alt="">
+                        
+                    </div>
+                    <div class="pics">
+                        <img src="images/galerie/4.png" alt="">
+                        
+                    </div>
+                    <div class="pics">
+                        <img src="images/galerie/5.png" alt="">
+                        
+                    </div>
+                
+                   
+                </div>
+        
+
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="contact">
+      <div class="box">
+        <img src="images/logonav.png" alt="">
+      </div>
+        <div class="wrapper">
+            <div class="all">
+                    <form action="#" method="POST">
+
+                        <h2>CONTACTEZ-NOUS</h2>
+                        <div class="form-group">
+                            <label for="nom"></label>
+                            <input type="text" id="nom" name="nom" placeholder="Nom">
+                        </div>
+                        <div class="form-group">
+                            <label for="prenom"></label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"></label>
+                            <input type="email" name="email" id="email" placeholder="Adresse e-mail">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" placeholder="Votre message"></textarea>
+                        </div>
+                        <div id="group-btn">
+                            <button type="submit" href="index.html">Envoyer</button>
+                        </div>
+                    </div>
+                </form>
+                    </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        /********BURGER*********/
+        const burger = document.querySelector("#burger");
+        const menuMobile = document.querySelector("#menuMobile");
+        const linksMenu = document.querySelectorAll('#menuMobile nav ul li a');
+
+        // Event button burger
+        const toggleMenu = () => {
+            burger.classList.toggle('open-burger');
+            menuMobile.classList.toggle('open-menu');
+        };
+
+        linksMenu.forEach(link => {
+            burger.addEventListener('click', toggleMenu);
+            link.addEventListener('click', toggleMenu);
+        });
+        /******COULEUR HEADER*****/
+
+
+        const archors = document.querySelectorAll('#archor-menu a')
+        archors.forEach(archor => {
+            archor.addEventListener('click', (e) => {
+                archors.forEach(arch => {
+                    arch.classList.remove('active')
+                })
+                archor.classList.add('active')
+            })
+        })
+
+        const aHome = document.querySelector('#a-home');
+        const aPres = document.querySelector('#a-pres');
+        const aPerformances = document.querySelector('#a-performances'); // Correction du nom ici
+        const aGalerie = document.querySelector('#a-galerie'); // Mis à jour pour correspondre à la section galerie
+        const aContact = document.querySelector('#a-contact');
+
+        const home = document.querySelector('#home');
+        const pres = document.querySelector('#presentation');
+        const performance = document.querySelector('#performance');
+        const galerie = document.querySelector('#galerie');
+        const contact = document.querySelector('#contact');
+
+
+        // Fonction pour déterminer quelle section est actuellement visible à l'écran
+        const getActiveSection = () => {
+            const scrolling = document.documentElement.scrollTop || window.scrollY || window.pageYOffset || document.body.scrollTop;
+
+            const sections = [
+                { name: 'home', element: home },
+                { name: 'presentation', element: pres },
+                { name: 'performance', element: performance },
+                { name: 'galerie', element: galerie },
+                { name: 'contact', element: contact }
+            ];
+
+            for (let i = sections.length - 1; i >= 0; i--) {
+                if (scrolling >= sections[i].element.offsetTop) {
+                    return sections[i].name;
+                }
+            }
+
+            return 'home';
+        };
+
+
+        // Fonction pour mettre à jour l'activation des ancres en fonction de la section actuellement visible
+        const updateActiveAnchor = () => {
+            const activeSection = getActiveSection();
+
+            archors.forEach(archor => archor.classList.remove('active'));
+            archors.forEach(archor => {
+                const sectionName = archor.getAttribute('href').substring(1);
+                if (sectionName === activeSection) {
+                    archor.classList.add('active');
+                }
+            });
+        };
+
+
+        // Événement pour mettre à jour l'activation des ancres lors du scroll
+        window.addEventListener('scroll', updateActiveAnchor);
+
+        // Événement pour mettre à jour l'activation des ancres lors du chargement initial de la page
+        window.addEventListener('DOMContentLoaded', updateActiveAnchor);
+
+        // Événement pour mettre à jour l'activation des ancres lors du redimensionnement de la fenêtre
+        window.addEventListener('resize', updateActiveAnchor);
+
+        // Événement pour gérer le clic sur une ancre et mettre à jour l'activation en conséquence
+        archors.forEach(archor => {
+            archor.addEventListener('click', (e) => {
+                e.preventDefault();
+                const target = document.querySelector(archor.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        const flottants = document.querySelectorAll('.flottant')
+        flottants.forEach(flottant => {
+
+            // Construction de la structure
+            const flotteur = document.createElement('div')
+            flotteur.classList.add('flotteur')
+            flottant.parentNode.insertBefore(flotteur, flottant)
+
+            const element = document.createElement('div')
+            element.classList.add('element')
+            flotteur.appendChild(element)
+
+
+
+            element.appendChild(flottant)
+            flottant.classList.remove('flottant')
+
+
+            // Initialisation des variables
+            const opt = {
+                x: 0,
+                y: 0,
+                rotate: 0,
+                deltax: 0,
+                deltay: 0,
+
+            }
+
+
+            if (flottant.getAttribute('delta-x')) opt.deltax = parseFloat(flottant.getAttribute('delta-x'))
+            if (flottant.getAttribute('delta-y')) opt.deltay = parseFloat(flottant.getAttribute('delta-y'))
+            if (element.getAttribute('data-transi')) {
+                const transit = parseFloat(element.getAttribute('data-transi'));
+                // console.log(percent,transit)
+                const opacity = (percent >= transit) ? 1 : 0;
+                element.style.opacity = opacity;
+            }
+
+
+
+            // Repositionnement
+
+
+            // Animation au scroll
+            const moveElements = (percent) => {
+                element.style.transform = `translate(${opt.deltax * percent * 3}vw,${opt.deltay * percent * 3}vh)`
+                if (element.getAttribute('data-transi')) {
+                    const transit = parseFloat(element.getAttribute('data-transi'));
+                    // console.log(percent,transit)
+                    const opacity = (percent >= transit) ? 1 : 0;
+                    element.style.opacity = opacity;
+                }
+            }
+            document.addEventListener('scroll', () => {
+                const start = (scrollY + window.innerHeight) - flotteur.offsetTop
+                const length = window.innerHeight + flotteur.offsetHeight
+                const percent = (start / length) * 2 - 1
+                moveElements(percent)
+            })
+
+        })
+        let myPanel = document.getElementById('panel');
+        let subPanel = document.getElementById('panel-container');
+        let mouseX, mouseY;
+        let transformAmount = 5;
+
+        function transformPanel(mouseEvent) {
+            mouseX = mouseEvent.pageX;
+            mouseY = mouseEvent.pageY;
+            const centerX = myPanel.offsetLeft + myPanel.clientWidth / 2;
+            const centerY = myPanel.offsetTop + myPanel.clientHeight / 2;
+            const percentX = (mouseX - centerX) / (myPanel.clientWidth / 2);
+            const percentY = -((mouseY - centerY) / (myPanel.clientHeight / 2));
+            subPanel.style.transform = "perspective(400px) rotateY(" + percentX * transformAmount + "deg) rotateX(" + percentY * transformAmount + "deg)";
+        }
+
+        function handleMouseEnter() {
+            setTimeout(() => {
+                subPanel.style.transition = "";
+            }, 100);
+            subPanel.style.transition = "transform 0.1s";
+        }
+
+        function handleMouseLeave() {
+            subPanel.style.transition = "transform 0.1s";
+            setTimeout(() => {
+                subPanel.style.transition = "";
+            }, 100);
+            subPanel.style.transform = "perspective(400px) rotateY(0deg) rotateX(0deg)";
+        }
+
+        myPanel.addEventListener('mousemove', transformPanel);
+        myPanel.addEventListener('mouseenter', handleMouseEnter);
+        myPanel.addEventListener('mouseleave', handleMouseLeave);
+        const toggleCardDetail = (event) => {
+        const card = event.currentTarget;
+        const cardDetail = card.querySelector('.detail-card');
+        card.classList.toggle('active');
+    };
+
+    // Get all the cards
+    const cards = document.querySelectorAll('.card');
+
+    // Add click event listener to each card
+    cards.forEach(card => {
+        card.addEventListener('click', toggleCardDetail);
+    });
+    const swipe = (elem,opts) => {
+                let touchstartX = 0
+                let touchstartY = 0
+                let touchendX = 0
+                let touchendY = 0
+                const handleGesture = (touchstartX, touchstartY, touchendX, touchendY) => {
+                    const delx = touchendX - touchstartX
+                    const dely = touchendY - touchstartY
+                    if(Math.abs(delx) > Math.abs(dely)){
+                        if(delx > 0) return "right"
+                        else return "left"
+                    }
+                    else if(Math.abs(delx) < Math.abs(dely)){
+                        if(dely > 0) return "down"
+                        else return "up"
+                    }
+                    else return "tap"
+                }
+                elem.addEventListener('touchstart', function(event) {
+                    touchstartX = event.changedTouches[0].screenX
+                    touchstartY = event.changedTouches[0].screenY
+                }, false)
+                elem.addEventListener('touchend', function(event) {
+                    touchendX = event.changedTouches[0].screenX
+                    touchendY = event.changedTouches[0].screenY
+                    switch(handleGesture(touchstartX, touchstartY, touchendX, touchendY)){
+                        case "left":
+                            if("left" in opts){
+                                opts.left()
+                                event.preventDefault()
+                                event.stopPropagation()
+                            }
+                        break;
+                        case "right":
+                            if("right" in opts){
+                                opts.right()
+                                event.preventDefault()
+                                event.stopPropagation()
+                            }
+                        break;
+                        case "down":
+                            if("down" in opts){
+                                opts.down()
+                                event.preventDefault()
+                                event.stopPropagation()
+                            }
+                        break;
+                        case "up":
+                            if("up" in opts){
+                                opts.up()
+                                event.preventDefault()
+                                event.stopPropagation()
+                            }
+                        break;
+                    }
+                }, false)
+            }
+
+
+
+
+            
+            const sliders = document.querySelectorAll('.slider')
+            sliders.forEach(slider => {
+                
+                const slides = slider.querySelectorAll('.pics')
+                let index = 0
+
+                slides[index].classList.add('active')
+
+                const changeSlide = (num) => {
+                    if(num<0) num = slides.length - 1
+                    slides[index].classList.remove("active")
+                    bulletList[index].classList.remove("active")
+                    index = num%slides.length
+                    // console.log(num,index)
+                    slides[index].classList.add("active")
+                    bulletList[index].classList.add("active")
+                }
+
+                // Timer, toutes les 3 secondes (valeur par défaut)
+                const time = slider.getAttribute('data-timer') || 3000
+                // console.log(time)
+                if(time>0){
+                    const timerSwitch = () => {
+                        changeSlide(index+1)
+                    }
+                    let timer = setInterval(timerSwitch,time)
+
+                    slider.addEventListener('mouseover',()=>{
+                        clearInterval(timer)
+                    })
+                    slider.addEventListener('mouseout',()=>{
+                        timer = setInterval(timerSwitch,time)
+                    })
+                }
+
+
+                const commandes = document.createElement('div')
+                slider.appendChild(commandes)
+                commandes.classList.add("commands")
+
+
+            
+
+
+                const bulletList = []
+                const bullets = document.createElement('div')
+                bullets.classList.add("bullets")
+                commandes.appendChild(bullets)
+                slides.forEach((elem,key)=>{
+                    // console.log(elem,key)
+                    const bullet = document.createElement('div')
+                    bullet.classList.add("bullet")
+                    bullets.appendChild(bullet)
+                    bullet.addEventListener('click',()=>{
+                        changeSlide(key)
+                    })
+                    bulletList.push(bullet)
+                })
+                bulletList[index].classList.add('active')
+
+
+                swipe(slider,{
+                    left: ()=>{
+                        console.log("left")
+                        changeSlide(index+1)
+                    },
+                    right: ()=>{
+                        console.log("right")
+                        changeSlide(index-1)
+                    }
+                })
+
+            })
+            
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
